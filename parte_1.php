@@ -10,27 +10,26 @@
 
 <menu>
     <div class="menu-up">
-        
-        </a> 
+        <div class="titulo">Andrade Autos</div>
+        <div class="subtitulo">El poder de soñar</div>
     </div>
 
-<div class="menu-middle">
-
-</div>
-
     <div class="menu-down">
-        <div class="hamburger-icon">
+     <div class="hamburger-icon">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         <div class="menu-container">
             <div class="menu-izquierda">
-                <a href="./">   
-                    <img src="./images/Autos andrade.png" alt="" height="300">
-                </a>
-            </div>
-            
+                <a href="">HONDA</a>
+                <a href="">BMW</a>
+                <a href="">FERRARI</a>
+                <a href="">JAGUAR</a>
+                <a href="">HUMMER</a>
+                <a href="">CORVETTE</a>
+                <a href=""class="premiun">MERCEDES-BENZ</a>
+            </div> 
         </div>
         
         <div class="menu-derecha">
