@@ -10,7 +10,7 @@
 
 <menu>
     <div class="menu-up">
-        <div class="titulo">Andrade Autos</div>
+        <div class="titulo">Star Autos</div>
         <div class="subtitulo">El poder de soñar</div>
     </div>
 
@@ -27,8 +27,7 @@
                 <a href="">FERRARI</a>
                 <a href="">JAGUAR</a>
                 <a href="">HUMMER</a>
-                <a href="">CORVETTE</a>
-                <a href=""class="premiun">MERCEDES-BENZ</a>
+                <a href=""class="premiun">CORVETTE</a>
             </div> 
         </div>
         
