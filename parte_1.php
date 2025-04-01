@@ -10,8 +10,9 @@
 
 <menu>
     <div class="menu-up">
-        <div class="titulo">Star Autos</div>
-        <div class="subtitulo">El poder de soñar</div>
+            <a href="./">   
+            <img src="./images/icon2.jpg" alt="" height="210">
+        </a>
     </div>
 
     <div class="menu-down">
@@ -31,8 +32,5 @@
             </div> 
         </div>
         
-        <div class="menu-derecha">
-         
-        </div>
-    </div>
-</menu>
+    </div
+></menu>
