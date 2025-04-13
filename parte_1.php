@@ -10,7 +10,7 @@
 
 <menu>
     <div class="menu-up">
-            <a href="./">   
+        <a href="./">   
             <img src="./images/icon2.jpg" alt="" height="210">
         </a>
     </div>
@@ -21,16 +21,23 @@
                 <span></span>
                 <span></span>
         </div>
+        
         <div class="menu-container">
             <div class="menu-izquierda">
                 <a href="">HONDA</a>
                 <a href="">BMW</a>
                 <a href="">FERRARI</a>
+                <a href="">MERCEDES-Benz</a>
                 <a href="">JAGUAR</a>
                 <a href="">HUMMER</a>
                 <a href=""class="premiun">CORVETTE</a>
-            </div> 
+            </div>
         </div>
         
-    </div
-></menu>
+    </div>
+    <div class="nuevo-contenedor">
+                <a href="">Repuestos Nuevos</a>
+                <a href="">Repuestos Usados</a>
+                <a href="">Accesorios</a>
+     </div>          
+</menu>
