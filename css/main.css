@@ -44,6 +44,8 @@ menu {
 
 .main-accordion-container{
     width: 100%;
+    height: auto;
+    display: flex;
 }
 
 .accordion-item {
@@ -155,6 +157,8 @@ menu {
     display: inline-block;
     background-color: black;
     border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 8px;
 }
 .card-cta:hover {
     text-decoration: underline;
