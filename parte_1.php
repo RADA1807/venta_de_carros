@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="venta_de_carros" content="venta_de_carros">
     <link rel="stylesheet" href="./css/main.css">
+    <title>Autos Andrade</title>
 </head>
 
 <menu>

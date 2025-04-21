@@ -315,5 +315,40 @@ menu {
         font-size: 25px;
         padding: 10px;
     }
+}
 
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: red;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center; /* Centra el texto */
+    font-size: 14px;
+    color: #ccc;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    padding: 15px 0;
 }
