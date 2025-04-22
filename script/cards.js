@@ -79,30 +79,30 @@ const dataCards = [
 (function () {
     let CARD = {
         init: function () {
-            let _self = this;
-            this.insertData(_self);
-
+            this.insertData();
         },
-        insertData: function(_self) {
-            dataCards.map(function(item, index) {
-               document.querySelector('.card-list').insertAdjacentHTML('beforeend', _self.tplCardItem(item, index)); 
+        
+        insertData: function() {
+            let carousel = document.querySelector('.carousel'); // ✅ Ahora se insertan en `.carousel`
+            dataCards.forEach((item, index) => {
+                let angle = index * (360 / dataCards.length); // Distribuir en círculo
+                carousel.insertAdjacentHTML("beforeend", this.tplCardItem(item, angle));
             });
         },
 
-        tplCardItem: function (item, index) {
-            return(`<div class='card-item id='card-number-${index}'>
+        tplCardItem: function (item, angle) {
+            return(`<div class='card-item' id='card-number-${angle}' style='transform: rotateY(${angle}deg) translateZ(250px);'>
                 <img src='${item.url_image}'>
                 <div class='card-info'>
-                <p class='card-title'>${item.title}</p>
-                <p class='card-desc'>${item.desc}</p>
-                <p class='card-desc1'>${item.desc1}</p>
-                <p class='card-desc1'>${item.desc2}</p>
-                <p class='card-desc1'>${item.desc3}</p>
-                <a class='card-cta' target='blank' href='${item.Link}'>${item.cta}</a>
+                    <p class='card-title'>${item.title}</p>
+                    <p class='card-desc'>${item.desc}</p>
+                    <p class='card-desc1'>${item.desc1}</p>
+                    <p class='card-desc2'>${item.desc2}</p>
+                    <p class='card-desc3'>${item.desc3}</p>
+                    <a class='card-cta' target='_blank' href='${item.Link}'>${item.cta}</a>
                 </div>
-            </div>`)
-
-        },
-    }
+            </div>`);
+        }
+    };
     CARD.init();
 })();

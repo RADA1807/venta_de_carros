@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p>📞 Teléfono: +506 1234-5678</p>
                 <p>✉ Email: contacto@autosandrade.com</p>
             </div>
-            
+
             <div class="footer-section">
                 <h3>Redes Sociales</h3>
                 <a href="https://facebook.com">Facebook</a>
